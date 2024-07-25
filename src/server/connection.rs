@@ -1090,7 +1090,7 @@ impl Connection {
                 let code = totp.generate_current();
                 if let Ok(code) = code {
                     let text = format!(
-                        "2FA code: {}\n\nUn cornuto sta provando a connettersi dall'ID {}. L'IP è {}.",
+                        "Codice 2FA: {}\n\nQualcuno sta provando a connettersi dall'ID {}. L'IP da cui si sta connettendo è {}.",
                         code,
                         Config::get_id(),
                         self.ip,
