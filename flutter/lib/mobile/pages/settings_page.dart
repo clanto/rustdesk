@@ -694,7 +694,7 @@ class _SettingsState extends State<SettingsPage> with WidgetsBindingObserver {
             SettingsTile(
               title: Text(translate("Privacy Statement")),
               onPressed: (context) =>
-                  launchUrlString('https://rustdesk.com/privacy.html'),
+                  launchUrlString('https://supporto.clanto.it/documentazione/privacy-clantodesk/'),
               leading: Icon(Icons.privacy_tip),
             )
           ],
