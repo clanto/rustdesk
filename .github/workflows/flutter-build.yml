@@ -606,7 +606,7 @@ jobs:
         shell: bash
         run: |
           pushd /tmp
-          wget https://github.com/indygreg/apple-platform-rs/releases/download/apple-codesign%2F0.22.0/apple-codesign-0.22.0-macos-universal.tar.gz
+          wget https://github.com/indygreg/apple-platform-rs/releases/download/apple-codesign%2F0.27.0/apple-codesign-0.27.0-macos-universal.tar.gz
           tar -zxvf apple-codesign-0.22.0-macos-universal.tar.gz
           mv apple-codesign-0.22.0-macos-universal/rcodesign /usr/local/bin
           popd
